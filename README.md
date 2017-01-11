@@ -13,6 +13,9 @@
 - 解决退出程序时候的报错
 - 把图片转化成pdf
 
+# 更新日志
+- V1.1 新增image2pdf.py，实现图片打包pdf的功能；将dist的exe更新成最新
+
 ## 感谢
 图片相似度的代码参考自：http://www.webtag123.com/python/44300.html
 
