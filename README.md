@@ -15,6 +15,7 @@
 
 # 更新日志
 - V1.1 新增image2pdf.py，实现图片打包pdf的功能；将dist的exe更新成最新
+- V1.2 修改了生成的pdf中图片顺序问题不对的bug；调整了图片相似度的阈值，调为100%
 
 ## 感谢
 图片相似度的代码参考自：http://www.webtag123.com/python/44300.html
