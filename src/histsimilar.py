@@ -40,7 +40,7 @@ def handleImage():
     for i in range(0,len(image_path)-1):
         similar = calc_similar_by_path(image_path[i],image_path[i+1])
         print(similar)
-        if( similar>= 0.9):
+        if( similar>= 1):
             os.remove(image_path[i])
 
 if __name__ == '__main__':
